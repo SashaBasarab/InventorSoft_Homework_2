@@ -8,8 +8,8 @@ public class Range<T extends Comparable<T>> implements Set<T> {
     private T start;
     private T finish;
     private Function<T, T> step;
-
     private Set<T> elements;
+
     public Range(T start, T finish, Function<T, T> step) {
         this.start = start;
         this.finish = finish;

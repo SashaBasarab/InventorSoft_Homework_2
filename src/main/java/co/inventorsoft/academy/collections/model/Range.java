@@ -7,7 +7,7 @@ public class Range<T> implements Set<T> {
 
     private TreeSet<T> rangeSet;
 
-    private Range(){
+    public Range(){
         rangeSet = new TreeSet<>();
     }
 
